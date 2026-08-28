@@ -1,4 +1,4 @@
 import calendar
-Year = input("Enter the Year!:\n")
-Month = input("Enter the Month!:\n")
-print(calendar.Month())
+Year = int(input("Enter the Year!:\n"))
+Month = int(input("Enter the Month!:\n"))
+print(calendar.month(Year,Month))
